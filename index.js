@@ -11,10 +11,13 @@ module.exports = () => {
             return Stringify(message);
         }
     });
+    const send = (type, data) => {
+        if (!data) data = {};
+        logstash.send(Object.assign(data, {type}));
+    };
     return {
         // 'fatal', 'error', 'warn', 'info', 'debug', 'trace'
-        info: (type, data) => {
-            logstash.send(Object.assign(data, {type}));
-        }
+        info: send,
+        error: send
     };
 };
