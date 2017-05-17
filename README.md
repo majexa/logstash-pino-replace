@@ -1,5 +1,9 @@
 # Logstash pino replace
 
+## Supported methods
+
+- info
+- error
 
 ## Usage
 
@@ -12,3 +16,4 @@ Define env vars
 Start logging
 
     pino.info('messageType', {some: 'data'});
+    pino.error('error');
