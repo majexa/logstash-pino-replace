@@ -1,0 +1,15 @@
+{
+  "name": "logstash-pino-replace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Yartsev <andrey.yartsev.g.@gmail.com> (http://majexa.ru)",
+  "license": "ISC",
+  "dependencies": {
+    "fast-safe-stringify": "^1.1.13",
+    "logstash-client": "^1.1.1"
+  }
+}
