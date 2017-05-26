@@ -1,15 +1,81 @@
 {
-  "name": "logstash-pino-replace",
-  "version": "1.0.3",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "logstash-pino-replace@1.0.3",
+        "scope": null,
+        "escapedName": "logstash-pino-replace",
+        "name": "logstash-pino-replace",
+        "rawSpec": "1.0.3",
+        "spec": "1.0.3",
+        "type": "version"
+      },
+      "/home/user/www/helpme-chat-server"
+    ]
+  ],
+  "_from": "logstash-pino-replace@1.0.3",
+  "_id": "logstash-pino-replace@1.0.3",
+  "_inCache": true,
+  "_location": "/logstash-pino-replace",
+  "_nodeVersion": "7.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/logstash-pino-replace-1.0.3.tgz_1495119280602_0.3003787293564528"
   },
-  "author": "Andrey Yartsev <andrey.yartsev.g.@gmail.com> (http://majexa.ru)",
-  "license": "ISC",
+  "_npmUser": {
+    "name": "andrey-yartsev",
+    "email": "andrey.yartsev.g@gmail.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "logstash-pino-replace@1.0.3",
+    "scope": null,
+    "escapedName": "logstash-pino-replace",
+    "name": "logstash-pino-replace",
+    "rawSpec": "1.0.3",
+    "spec": "1.0.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/logstash-pino-replace/-/logstash-pino-replace-1.0.3.tgz",
+  "_shasum": "7da43f489d405088249dec320526202f70ea62e5",
+  "_shrinkwrap": null,
+  "_spec": "logstash-pino-replace@1.0.3",
+  "_where": "/home/user/www/helpme-chat-server",
+  "author": {
+    "name": "Andrey Yartsev",
+    "email": "andrey.yartsev.g.@gmail.com",
+    "url": "http://majexa.ru"
+  },
   "dependencies": {
     "fast-safe-stringify": "^1.1.13",
     "logstash-client": "^1.1.1"
-  }
+  },
+  "description": "## Supported methods",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "7da43f489d405088249dec320526202f70ea62e5",
+    "tarball": "https://registry.npmjs.org/logstash-pino-replace/-/logstash-pino-replace-1.0.3.tgz"
+  },
+  "gitHead": "ebf3171d58e217be6596d2b763ab7ed386edbe8c",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "andrey-yartsev",
+      "email": "andrey.yartsev.g@gmail.com"
+    }
+  ],
+  "name": "logstash-pino-replace",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
 }
